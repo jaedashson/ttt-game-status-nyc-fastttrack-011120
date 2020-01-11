@@ -16,14 +16,14 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  # Return falsey for an empty board
-  empty_board = board.all? do |space|
-    space == " " || space == ""
-  end
-
-  if empty_board
-    return false
-  end
+  # # Return falsey for an empty board
+  # empty_board = board.all? do |space|
+  #   space == " " || space == ""
+  # end
+  # 
+  # if empty_board
+  #   return false
+  # end
 
   # # Return falsey for a draw.  MAYBE UNNECESSARY?
   # draw_board = board.all? do |space|
