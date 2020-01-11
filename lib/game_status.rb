@@ -89,6 +89,7 @@ def winner(board)
   # puts win.to_s # DEBUG
   # puts board[win[0]] # DEBUG
 
+  # returns nil if no winner
   if !won?(board)
     return nil
   end
