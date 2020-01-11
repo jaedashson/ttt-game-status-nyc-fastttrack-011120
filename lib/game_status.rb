@@ -86,6 +86,8 @@ end
 def winner(board)
   win = won?(board)
 
+  puts win.to_s
+
   if !won?(board)
     return nil
   end
