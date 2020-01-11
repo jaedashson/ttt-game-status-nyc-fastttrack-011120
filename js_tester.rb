@@ -10,7 +10,7 @@ in_progress_board = ["X"," "," "," "," "," "," "," "," "]
 full_board = ["X","X","X","X","X","X","X","X","X"]
 
 # Tests for #winner
-puts won?(first_row_win_board)
+puts first_row_win_board
 
 
 # # Tests for #won?
