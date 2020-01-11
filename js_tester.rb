@@ -17,12 +17,12 @@ puts won?(first_row_win_board)
 # puts "first row win: " + won?(first_row_win_board).to_s
 # puts "diagonal win 1: " + won?(diagonal_win_board_1).to_s
 # puts "diagonal win 2: " + won?(diagonal_win_board_2).to_s
-# 
+#
 # # Tests for #draw?
 # puts "Is first row win a draw? (Expect false): " + draw?(first_row_win_board).to_s
 # puts "Is diagonal win 1 a draw? (Expect false): " + draw?(diagonal_win_board_1).to_s
 # puts "Is diagonal win 2 a draw? (Expect false): " + draw?(diagonal_win_board_2).to_s
-# 
+#
 # # Tests for #over?
 # puts "Is an in-progress board over? (Expect false): " + over?(in_progress_board).to_s
 # puts "Is a first row win board over? (Expect true): " + over?(first_row_win_board).to_s
