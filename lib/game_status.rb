@@ -92,7 +92,10 @@ def winner(board)
 
   if win[0] == "X"
     return "X"
+  end
+
   if win[0] == "O"
     return "O"
+  end
 
 end
