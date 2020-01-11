@@ -52,6 +52,8 @@ def won?(board)
     end
 
   end
+
+  return false
 end
 
 # Returns true if every element in the board contains either an "X" or an "O"
