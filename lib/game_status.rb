@@ -90,12 +90,14 @@ def winner(board)
     return nil
   end
 
-  if win[0] == "X"
-    return "X"
-  end
+  return = board[won[0]]
 
-  if win[0] == "O"
-    return "O"
-  end
+  # if win[0] == "X"
+  #   return "X"
+  # end
+  # 
+  # if win[0] == "O"
+  #   return "O"
+  # end
 
 end
