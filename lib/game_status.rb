@@ -88,6 +88,8 @@ def winner(board)
 
   puts win.to_s
 
+  puts board[win[0]]
+
   if !won?(board)
     return nil
   end
