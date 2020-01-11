@@ -90,10 +90,12 @@ def winner(board)
 
   puts board[win[0]] # DEBUG
 
-  return board[win[0]]
 
   if !won?(board)
     return nil
   end
+
+  
+    return board[win[0]]
 
 end
