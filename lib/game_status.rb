@@ -25,14 +25,14 @@ def won?(board)
     return false
   end
 
-  # # Return falsey for a draw.  MAYBE UNNECESSARY?
-  # draw_board = board.all? do |space|
-  #   space == "X" || space == "O"
-  # end
-  #
-  # if draw_board
-  #   return false
-  # end
+  # Return falsey for a draw.  MAYBE UNNECESSARY?
+  draw_board = board.all? do |space|
+    space == "X" || space == "O"
+  end
+  
+  if draw_board
+    return false
+  end
 
   WIN_COMBINATIONS.each do |win_combination|
     win_index_1 = win_combination[0]
