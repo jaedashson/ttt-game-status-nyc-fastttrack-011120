@@ -29,7 +29,7 @@ def won?(board)
   draw_board = board.all? do |space|
     space == "X" || space == "O"
   end
-  
+
   if draw_board
     return false
   end
