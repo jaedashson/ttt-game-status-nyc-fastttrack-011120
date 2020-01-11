@@ -25,7 +25,7 @@ def won?(board)
     return false
   end
 
-  # Return falsey for a draw
+  # Return falsey for a draw.  MAYBE UNNECESSARY?
   draw_board = board.all? do |space|
     space == "X" || space == "O"
   end
