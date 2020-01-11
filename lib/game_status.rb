@@ -50,9 +50,6 @@ def won?(board)
     if position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combination
     end
-
-    return false
-
   end
 end
 
