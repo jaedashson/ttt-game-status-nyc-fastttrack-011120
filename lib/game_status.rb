@@ -20,7 +20,7 @@ def won?(board)
   # empty_board = board.all? do |space|
   #   space == " " || space == ""
   # end
-  # 
+  #
   # if empty_board
   #   return false
   # end
