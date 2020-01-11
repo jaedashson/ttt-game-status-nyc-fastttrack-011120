@@ -91,8 +91,8 @@ def winner(board)
   if !won?(board)
     return nil
   end
-
-  return board[won[0]]
+  # 
+  # return board[won[0]]
 
   # if win[0] == "X"
   #   return "X"
