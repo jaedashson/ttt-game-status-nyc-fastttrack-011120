@@ -95,7 +95,7 @@ def winner(board)
     return nil
   end
 
-  
+
     return board[win[0]]
 
 end
